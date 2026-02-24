@@ -1,0 +1,83 @@
+body{
+      font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "FLAR" 0,
+    "VOLM" 0;
+
+      font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: #DCE2C8
+}
+
+p{
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "FLAR" 0,
+    "VOLM" 0;  
+  color: #071E21
+  
+}
+
+h1 {
+    color: #F96900;
+}
+
+nav a{
+    color:#F96900;
+    text-decoration: none;
+}
+
+img{
+    width: 300px;
+    height: 550px;
+}
+
+video{
+  width: 300px;
+  height: 433px;
+}
+
+h1{
+  text-align: center;
+}
+
+#animatedgif{
+  width: 1366px;
+  height: 768px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 24px;
+  padding: 20px;
+}
+
+.grid-item img,
+.grid-item video {
+  width: 400px;
+  height: 900px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.grid-item p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 8px;
+  text-align: center;
+}
