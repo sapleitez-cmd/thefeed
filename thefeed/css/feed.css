@@ -1,5 +1,5 @@
 body{
-      font-family: "Commissioner", sans-serif;
+  font-family: "Commissioner", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -8,7 +8,7 @@ body{
     "FLAR" 0,
     "VOLM" 0;
 
-      font-family: "Bagel Fat One", system-ui;
+  font-family: "Bagel Fat One", system-ui;
   font-weight: 400;
   font-style: normal;
 
@@ -52,32 +52,44 @@ h1{
 }
 
 #animatedgif{
-  width: 1366px;
-  height: 768px;
+  width: 481px;
+  height: 459px;
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
 
-.grid {
+.page-layout{
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 per row */
-  gap: 24px;
-  padding: 20px;
+  justify-content: end;
+  grid-template-columns: 300px 1fr;
+  gap: 100px;
+  padding:40px;
 }
 
-.grid-item img,
-.grid-item video {
-  width: 400px;
-  height: 900px;
-  object-fit: cover;
-  border-radius: 20px;
+.bio-box{
+  position: sticky
+  top: 40px;
+  height: 500px;
+  background: #f26419;
+  padding: 30px;
+  border-radius:12px;
+  border: 3px #86bbd8 solid;
+  color: #33658a
+  position: relative;
 }
 
-.grid-item p {
-  font-size: 14px;
-  line-height: 1.5;
-  margin-top: 8px;
-  text-align: center;
+.feed img,
+.feed video {
+  width:300px;
+  height: 650px;
+  display:block;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  border: 5px solid #F96900;
+  border-radius: 15px;
+
 }
+
