@@ -69,7 +69,7 @@ h1{
 }
 
 .bio-box{
-  position: sticky
+  position: sticky;
   top: 40px;
   height: 500px;
   background: #f26419;
@@ -84,7 +84,7 @@ h1{
 .feed video {
   width:300px;
   height: 650px;
-  display:block;
+  text-align: center;
   align-items: center;
   justify-content: center;
   margin: 20px 0;
