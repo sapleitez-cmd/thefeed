@@ -12,7 +12,10 @@ body{
   font-weight: 400;
   font-style: normal;
 
-  background-color: #DCE2C8
+  background-image: url("../img/background_image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 p{
