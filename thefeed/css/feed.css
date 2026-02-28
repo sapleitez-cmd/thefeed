@@ -11,7 +11,11 @@ body{
   font-family: "Bagel Fat One", system-ui;
   font-weight: 400;
   font-style: normal;
-background-image: url(../img/background_image\ 2.png);
+background-image: url(../img/background_image_2.png);
+background-size: cover;
+height:100vh;
+background-repeat: no-repeat;
+
 
 }
 
@@ -75,7 +79,7 @@ h1{
   background: #f26419;
   padding: 30px;
   border-radius:12px;
-  border: 3px #86bbd8 solid;
+  border: 5px #86bbd8 solid;
   color: #33658a
   position: relative;
 }
