@@ -12,7 +12,7 @@ body{
   font-weight: 400;
   font-style: normal;
 
-  background-image: linear-gradient( #DCE2C8, #F96900);
+  background-color: #DCE2C8
 }
 
 p{
@@ -51,15 +51,13 @@ h1{
   text-align: center;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px; 
-}
-
-#animatedgif {
+#animatedgif{
   width: 481px;
   height: 459px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .page-layout{
@@ -78,19 +76,26 @@ h1{
   padding: 30px;
   border-radius:12px;
   border: 3px #86bbd8 solid;
-  color: #33658a;
+  color: #33658a
+  position: relative;
 }
-
 
 .feed img,
 .feed video {
   width:300px;
   height: 650px;
-  text-align: center;
+ 
   align-items: center;
   justify-content: center;
   margin: 20px 0;
   border: 5px solid #F96900;
   border-radius: 15px;
+
 }
+
+
+.feed{
+  text-align: center;
+}
+
 
