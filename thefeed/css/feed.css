@@ -11,9 +11,8 @@ body{
   font-family: "Bagel Fat One", system-ui;
   font-weight: 400;
   font-style: normal;
-background-image: url(../img/background_image_2.png);
-background-size: cover;
-height:100vh;
+background-image: url(../img/feed_background.png);
+background-size:contain;
 background-repeat: no-repeat;
 
 
