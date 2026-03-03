@@ -99,6 +99,14 @@ h1{
 
 }
 
+.post {
+  background-color: #86bbd8;   /* change color */
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
 .feed{
   text-align: center; 
 }
