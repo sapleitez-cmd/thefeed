@@ -95,6 +95,17 @@ h1{
   margin-bottom: 100px; 
 }
 
+.closing-line {
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: #f26419;
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .corner-star {
   position: fixed;
   bottom: 20px;   /* distance from bottom */
