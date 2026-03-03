@@ -32,49 +32,26 @@ h1 {
     color: #F96900;
 }
 
-nav a{
-    color:#F96900;
-    text-decoration: none;
-}
-
-img{
-    width: 300px;
-    height: 550px;
-}
-
-video{
-  width: 300px;
-  height: 433px;
-}
-
 h1{
   text-align: center;
-}
-
-#animatedgif{
-  width: 481px;
-  height: 459px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
 }
 
 .page-layout{
   display: grid;
   justify-content: end;
   grid-template-columns: 300px 1fr;
-  gap: 100px;
+ column-gap: 300px;
   padding:40px;
+  justify-content: center;
 }
 
 .bio-box{
   position: sticky;
-  top: 40px;
+  top: 60px;
   height: 500px;
   background: #f26419;
-  padding: 30px;
-  border-radius:12px;
+  padding: 50px;
+  border-radius:30px;
   border: 5px #86bbd8 solid;
   color: #33658a;
 }
@@ -85,11 +62,13 @@ h1{
   object-fit: cover;   /* prevents distortion */
   border-radius: 50%;  /* makes it circular */
   margin-bottom: 5px;
+
 }
 
 .feed img,
 .feed video {
-  width:300px;
+  max-width:300px;
+  width: 100%;
   height: auto;
   align-items: center;
   justify-content: center;
@@ -102,13 +81,14 @@ h1{
 .post {
   background-color: #86bbd8;   /* change color */
   padding: 20px;
-  border-radius: 20px;
-  margin-bottom: 30px;
+  border-radius: 40px;
+  margin-bottom: 50px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
 .feed{
   text-align: center; 
+    max-width: 600px;
 }
 
 .saturday {
